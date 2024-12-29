@@ -2,9 +2,9 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Sesuaikan 3 digit terakhir stambuk (disimpan sebagai string)
-stambuk_last_three = "005"  # Ganti dengan 3 digit terakhir stambuk Anda
-max_value = 250 - int(stambuk_last_three)  # Konversi ke integer untuk operasi matematika
+
+stambuk_last_three = "005"  
+max_value = 250 - int(stambuk_last_three)  
 
 # Fungsi untuk menghasilkan array acak dengan panjang n
 def generate_array(n, seed=42):
